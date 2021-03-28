@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Киномонстр - портал о кино">
+  <meta name="keywords" content="фильмы, фильмы онлайн, кино онлайн, hd" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>КиноМонстр</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <div class="logo">
+        <div class="logo__text">
+          <h1><a href="index.html">КиноМонстр</a></h1>
+          <h2>Кино - наша страсть!</h2>
+        </div>
+      </div>
+      <!------------------------------------ menubar ------------------------------------>
+      <div class="menubar">
+        <ul class="menu">
+          <li><a href="index.html">Главная</a></li>
+          <li class="selected"><a href="#">Фильмы</a></li>
+          <li><a href="TVseries.html">Сериалы</a></li>
+          <li><a href="rating.html">Рейтинг фильмов</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--------------------------------- site__content ------------------------------------>
+    <div class="site__content">
+      <div class="sidebar__container">
+        <div class="sidebar">
+          <h2>Поиск</h2>
+          <form method="POST" action="#" id="search__form">
+            <input type="search" name="search_filed" placeholder="ваш запрос" />
+            <input type="submit" class="btn" value="найти" />
+          </form>
+        </div>
+        <!--------------------------------- sidebar ------------------------------------>
+        <div class="sidebar">
+          <h2>Вход</h2>
+          <form method="POST" action="#" id="login">
+            <input type="text" name="login_field" placeholder="логин" />
+            <input type="password" name="password_filed" placeholder="пароль" />
+            <input type="submit" class="btn" value="вход" />
+            <div class="lables_passreg_text">
+              <span><a href="#"> забыли пароль?</span> | <span><a href="#"> регистрация</a></span></a>
+            </div>
+          </form>
+        </div>
+
+        <div class="sidebar">
+          <h2>Новости</h2>
+          <span>31.02.2018</span>
+          <p>Мы запустили расширенный поиск</p>
+          <a href="#">читать</a>
+        </div>
+
+        <div class="sidebar">
+          <h2>Рейтинг фильмов</h2>
+          <ul>
+            <li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
+            <li><a href="">Матрица</a><span class="rating_sidebar">8.0</span></li>
+            <li><a href="">Безумный Макс</a><span class="rating_sidebar">7.5</span></li>
+            <li><a href="">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+          </ul>
+        </div>
+      </div>
+      <!--------------------------------- content ------------------------------------>
+
+      <div class="content">
+
+        <div class="info__films">
+          <img src="assets/img/inter.png" alt="inter">
+          Главные роли сыграли оскароносные Мэттью МакКонахи и Энн Хэтэуэй. Фильм о путешествиях группы исследователей,
+          которые
+          используют недавно обнаруженный пространственно-временной тоннель, чтобы обойти ограничения полета человека в
+          космосе и
+          покорить огромные расстояния на межзвездном корабле.
+          <div class="button"><a href="show.html">Смотреть</a>
+          </div>
+        </div>
+
+        <div class="info__films">
+          <img src="assets/img/max.png" alt="max">
+          Вскоре после отмщения за смерть жены и сына, Макс Рокатански покинул ряды «Основного силового патруля» и уехал
+          в глушь, где скитается в одиночестве, пока мир медленно падает в последствии нефтяного кризиса и глобальной
+          войны. Не имея
+          ничего, кроме своей машины «Перехватчик», Максу предстоит научиться, как выжить в пост-апокалиптической
+          пустоши и сражаться с жестокими, безжалостными воинами, которые населяют её.
+          <div class="button"><a href="#">Смотреть</a>
+          </div>
+        </div>
+
+        <div class="info__films">
+          <img src="assets/img/matrix.png" alt="matrix">
+          Мир Матрицы — это иллюзия, существующая только в бесконечном сне обреченного человечества. Холодный мир
+          будущего, в котором люди — всего лишь батарейки в компьютерных системах.
+          <div class="button"><a href="#">Смотреть</a>
+          </div>
+        </div>
+
+        <div class="info__films">
+          <img src="assets/img/cloud.png" alt="matrix">
+          Шесть историй — пять реинкарнаций, происходящих в разное время, тесно переплетаются между собой…
+          <div class="button"><a href="#">Смотреть</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--------------------------------- footer ------------------------------------>
+    <div class="footer">
+      <p>
+        <a href="index.html">Главная</a> |
+        <a href="films.html">Фильмы</a> |
+        <a href="TVseries.html">Сериалы</a> |
+        <a href="rating.html">Рейтинг фильмов</a> |
+        <a href="contact.html">Контакты</a>
+      </p>
+      <p>wh-db.com 2020</p>
+    </div>
+  </div>
+</body>
+
+</html>
