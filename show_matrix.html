@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Киномонстр - портал о кино">
   <meta name="keywords" content="фильмы, фильмы онлайн, кино онлайн, hd" />
   <link rel="stylesheet" href="assets/css/style.css">
@@ -24,7 +24,7 @@
       <div class="menubar">
         <ul class="menu">
           <li><a href="index.html">Главная</a></li>
-          <li class="selected"><a href="#">Фильмы</a></li>
+          <li><a href="films.html">Фильмы</a></li>
           <li><a href="TVseries.html">Сериалы</a></li>
           <li><a href="rating.html">Рейтинг фильмов</a></li>
           <li><a href="contact.html">Контакты</a></li>
@@ -66,50 +66,66 @@
           <ul>
             <li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
             <li><a href="show_matrix.html">Матрица</a><span class="rating_sidebar">8.0</span></li>
-            <li><a href="">Безумный Макс</a><span class="rating_sidebar">7.5</span></li>
-            <li><a href="">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
+            <li><a href="#">Безумный Макс</a><span class="rating_sidebar">7.5</span></li>
+            <li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
           </ul>
         </div>
       </div>
       <!--------------------------------- content ------------------------------------>
 
       <div class="content">
+        <h1>Матрица</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YihPA42fdQ8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
 
-        <div class="info__films">
-          <img src="assets/img/inter.png" alt="inter">
-          Главные роли сыграли оскароносные Мэттью МакКонахи и Энн Хэтэуэй. Фильм о путешествиях группы исследователей,
-          которые
-          используют недавно обнаруженный пространственно-временной тоннель, чтобы обойти ограничения полета человека в
-          космосе и
-          покорить огромные расстояния на межзвездном корабле.
-          <div class="button"><a href="show.html">Смотреть</a>
-          </div>
+        <div class="info__film__page">
+          <span class="lable">рейтинг: </span><span class="value">8.0 / 10</span>
+          <span class="lable">год: </span><span class="value">1999</span>
+          <span class="lable">режиссер: </span><span class="value">Энди Вачовски, Лана Вачовски</span>
         </div>
 
-        <div class="info__films">
-          <img src="assets/img/max.png" alt="max">
-          Вскоре после отмщения за смерть жены и сына, Макс Рокатански покинул ряды «Основного силового патруля» и уехал
-          в глушь, где скитается в одиночестве, пока мир медленно падает в последствии нефтяного кризиса и глобальной
-          войны. Не имея
-          ничего, кроме своей машины «Перехватчик», Максу предстоит научиться, как выжить в пост-апокалиптической
-          пустоши и сражаться с жестокими, безжалостными воинами, которые населяют её.
-          <div class="button"><a href="#">Смотреть</a>
-          </div>
-        </div>
+        <hr>
+        <h2>Описание Матрица</h2>
 
-        <div class="info__films">
+        <div class="description__film">
           <img src="assets/img/matrix.png" alt="matrix">
-          Мир Матрицы — это иллюзия, существующая только в бесконечном сне обреченного человечества. Холодный мир
-          будущего, в котором люди — всего лишь батарейки в компьютерных системах.
-          <div class="button"><a href="show_matrix.html">Смотреть</a>
+          Рядовой сотрудник крупной компании, программист Томас Андерсон странным образом чувствует зыбкость окружающей
+          реальности. По ночам он ведет тайную жизнь хакера по имени Нео, на связь с которым однажды выходят
+          таинственные
+          люди. Они сообщают ему, что тот «увяз в Матрице», но не объясняют, что это значит. Вскоре на Томаса выходят
+          странные люди в костюмах, удивительным образом управляющие окружающей реальностью, а позднее Томас встречается
+          с таинственным Морфеусом, которого власти объявили террористом.
+        </div>
+
+        <hr>
+        <h2>Отзывы об фильме Матрица</h2>
+
+        <div class="reviews">
+          <div class="reviews__name">
+            Андрей
+          </div>
+          <div class="reviews__text">
+            Матрица фильм культовый и неповторимый как и Титаник. Такие фильмы не повторить.
           </div>
         </div>
 
-        <div class="info__films">
-          <img src="assets/img/cloud.png" alt="matrix">
-          Шесть историй — пять реинкарнаций, происходящих в разное время, тесно переплетаются между собой…
-          <div class="button"><a href="#">Смотреть</a>
+        <div class="reviews">
+          <div class="reviews__name">
+            Вася
           </div>
+          <div class="reviews__text">
+            Каждый год пересматриваю всю трилогию по несколько раз и не надоедает. Мой любимый фильм. Глубокий сюжет.
+          </div>
+        </div>
+
+        <div class="send">
+          <form method="POST" action="#" id="reviev">
+            <input type="text" name="reviews__name" placeholder="Ваше имя">
+            <textarea name="reviews__text"></textarea>
+            <input type="submit" value="Отправить">
+          </form>
         </div>
 
       </div>
